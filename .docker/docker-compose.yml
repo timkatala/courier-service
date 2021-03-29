@@ -1,0 +1,29 @@
+version: '3'
+services:
+    api:
+        build:
+            dockerfile: .docker/images/api/Dockerfile
+            context: "./.."
+        depends_on:
+            - postgre
+        volumes:
+            - "./../:/var/www"
+        ports:
+            - "8080:8080"
+        env_file:
+          - ./local.env
+
+    postgre:
+        image: postgres:11-alpine
+
+        volumes:
+        - data_postgres:/var/lib/postgresql/data
+        ports:
+            - "5432:5432"
+        env_file:
+          - ./local.env
+
+   
+volumes:
+    data_postgres:
+

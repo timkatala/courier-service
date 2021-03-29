@@ -1,0 +1,77 @@
+# Courier
+-
+    model: "order.Order"
+    pk: 1
+    fields:
+      order_id: 1
+      weight: 6
+      region: 1
+      delivery_hours: [["17:00:00+00:00", "19:00:00+00:00"], ["20:00:00+00:00","21:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 2
+    fields:
+      order_id: 2
+      weight: 4
+      region: 1
+      delivery_hours: [["14:00:00+00:00", "19:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 3
+    fields:
+      order_id: 3
+      weight: 3
+      region: 2
+      delivery_hours: [["17:00:00+00:00", "19:00:00+00:00"], ["20:00:00+00:00","21:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 3
+    fields:
+      order_id: 4
+      weight: 3
+      region: 2
+      delivery_hours: [["17:00:00+00:00", "19:00:00+00:00"], ["20:00:00+00:00","21:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 3
+    fields:
+      order_id: 5
+      weight: 3
+      region: 2
+      delivery_hours: [["17:00:00+00:00", "19:00:00+00:00"], ["20:00:00+00:00","21:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 3
+    fields:
+      order_id: 6
+      weight: 1
+      region: 3
+      delivery_hours: [["17:00:00+00:00", "19:00:00+00:00"], ["20:00:00+00:00","21:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
+
+-
+    model: "order.Order"
+    pk: 3
+    fields:
+      order_id: 7
+      weight: 1
+      region: 2
+      delivery_hours: [["12:00:00+00:00", "13:00:00+00:00"]]
+      modified_date: "2020-01-01T00:00:00.10000000"
+      created_date: "2020-01-01T00:00:00.10000000"
