@@ -13,4 +13,4 @@ WORKDIR /var/www
 
 
 
-CMD . /opt/venv/bin/activate && python manage.py migrate && python manage.py collectstatic --noinput && python manage.py loaddata fixtures/data.json && python manage.py runserver 0.0.0.0:8080
+CMD . /opt/venv/bin/activate && python manage.py migrate && python manage.py collectstatic --noinput && python manage.py runserver 0.0.0.0:8080
